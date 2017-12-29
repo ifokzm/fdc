@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="deploy">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/classes/deploy/ExpenseAccount.zip!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/classes/deploy/CountSalary.zip!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/classes/deploy/Vacation.zip!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/classes/deploy/Salary.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

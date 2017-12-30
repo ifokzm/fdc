@@ -248,6 +248,9 @@ public class UserAction {
         for(Session session : sessions){
         	Map<String, Object> map=new HashMap<String, Object>();
         	PrincipalCollection principalCollection = (PrincipalCollection) session.getAttribute(DefaultSubjectContext.PRINCIPALS_SESSION_KEY);
+        	if(principalCollection ==null){
+        		continue;
+			}
         	String userName = (String)principalCollection.getPrimaryPrincipal();
         	Boolean forceLogout = session.getAttribute(Constants.SESSION_FORCE_LOGOUT_KEY) != null;
         	map.put("id", session.getId());
